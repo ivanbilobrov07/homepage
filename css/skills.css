@@ -4,7 +4,18 @@
   margin-bottom: 15px;
 }
 
+.skills__list {
+  list-style: none;
+  padding-left: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills__item {
+  flex-basis: 33%;
+}
+
 .skills__text {
   color: var(--secondary-text-color);
-  text-align: justify;
+  text-align: center;
 }
